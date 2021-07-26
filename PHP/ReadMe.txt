@@ -1,2 +1,0 @@
-
-Fullstack projects using Laravel
