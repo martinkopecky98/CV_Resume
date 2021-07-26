@@ -1,0 +1,85 @@
+ 1;04-Oct-20 6:53:11 PM;0;admin;admin;Delete From Zamestnanec Where Zamestnanec_id = 7
+ 2;04-Oct-20 6:54:32 PM;0;admin;admin;Delete From Zamestnanec Where Zamestnanec_id = 8
+ 3;04-Oct-20 6:54:32 PM;0;admin;admin;Delete From Zamestnanec Where Zamestnanec_id = 5
+ 4;04-Oct-20 6:54:32 PM;0;admin;admin;Delete From Zamestnanec Where Zamestnanec_id = 4
+ 5;04-Oct-20 7:05:06 PM;0;admin;admin;Delete From Zamestnanec Where Zamestnanec_id = 14
+ 6;04-Oct-20 7:05:27 PM;0;admin;admin;Insert into Zamestnanec  Values ( 22 , None  Peter  Balog  78  818644241  None  None 
+ 7;04-Oct-20 7:09:16 PM;0;admin;admin;Insert into Project  Values ( 2 , 1  Frontend  Peto 
+ 8;04-Oct-20 7:14:14 PM;0;admin;admin;Update Project set divizia_id = 1 project_nazov = Frontend project_veduci = Juraj Where {nazov}_id = {indexy[i]}
+ 9;04-Oct-20 7:14:27 PM;0;admin;admin;Insert into Project  Values ( 3 , 1  BackEnd  Peto 
+ 10;04-Oct-20 7:14:32 PM;0;admin;admin;Delete From Project Where project_id = 2
+ 11;04-Oct-20 7:14:44 PM;0;admin;admin;Insert into Project  Values ( 3 , 2  Frontend  Juraj 
+ 12;04-Oct-20 7:14:47 PM;0;admin;admin;Insert into Project  Values ( 4 , 3  Frontend  Juraj 
+ 13;04-Oct-20 7:14:50 PM;0;admin;admin;Insert into Project  Values ( 5 , 4  Frontend  Juraj 
+ 14;04-Oct-20 7:15:02 PM;0;admin;admin;Delete From Project Where project_id = 4
+ 15;04-Oct-20 7:15:02 PM;0;admin;admin;Delete From Project Where project_id = 3
+ 16;04-Oct-20 7:15:04 PM;0;admin;admin;Insert into Project  Values ( 4 , 1  Frontend  Juraj 
+ 17;04-Oct-20 7:15:06 PM;0;admin;admin;Insert into Project  Values ( 5 , 1  Frontend  Juraj 
+ 18;04-Oct-20 7:15:13 PM;0;admin;admin;Update Project set divizia_id = 3 project_nazov = None project_veduci = None Where {nazov}_id = {indexy[i]}
+ 19;04-Oct-20 7:15:13 PM;0;admin;admin;Update Project set divizia_id = 3 project_nazov = None project_veduci = None Where {nazov}_id = {indexy[i]}Where {nazov}_id = {indexy[i]}
+ 20;04-Oct-20 7:15:31 PM;0;admin;admin;Update Project set divizia_id = 3 project_nazov = Angular project_veduci = Martin Where {nazov}_id = {indexy[i]}
+ 21;04-Oct-20 7:15:31 PM;0;admin;admin;Update Project set divizia_id = 3 project_nazov = Angular project_veduci = Martin Where {nazov}_id = {indexy[i]}Where {nazov}_id = {indexy[i]}
+ 22;04-Oct-20 7:15:43 PM;0;admin;admin;Select *  From Project  Order By project_nazov 
+ 23;04-Oct-20 7:17:13 PM;0;admin;admin;Insert into Odelenie  Values ( 2 , 1  Vychod  Marek 
+ 24;04-Oct-20 8:31:59 PM;1;Tibor;Pen;Insert into Zamestnanec  Values ( 23 , Ing  Juraj  Pen  66  453877696  None  None 
+ 25;04-Oct-20 8:32:18 PM;1;Tibor;Pen;Insert into Zamestnanec  Values ( 24 , Ing  Peter  Suhaj  66  453877696  None  None 
+ 26;04-Oct-20 8:32:26 PM;1;Tibor;Pen;Delete From Zamestnanec Where Zamestnanec_id = 23
+ 27;04-Oct-20 8:54:09 PM;0;admin;admin;Insert into Odelenie  Values ( 3 , 100  Zapad  Marek 
+ 28;04-Oct-20 9:08:51 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Ing zamestnanec_meno = Michal zamestnanec_priezvisko = Wong zamestnanec_vek = 24 zamestnanec_telefon = 131982650 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 29;04-Oct-20 9:09:28 PM;13;Michal;Wong;Insert into Zamestnanec  Values ( 24 , Ing  Peter  Pan  66  453877696  None  None 
+ 30;04-Oct-20 9:09:36 PM;13;Michal;Wong;Insert into Zamestnanec  Values ( 25 , Ing  Kali  Record  100  453877696  None  None 
+ 31;04-Oct-20 9:09:41 PM;13;Michal;Wong;Delete From Zamestnanec Where Zamestnanec_id = 23
+ 32;06-Oct-20 2:33:49 PM;0;admin;admin;Insert into Odelenie  Values ( 3 , 2  Vychod  vymazat 
+ 33;06-Oct-20 2:34:12 PM;0;admin;admin;Delete From Project Where project_id = 2
+ 34;06-Oct-20 2:35:12 PM;0;admin;admin;Insert into Odelenie  Values ( 3 , 4  Vychod  Marek 
+ 35;06-Oct-20 2:35:22 PM;0;admin;admin;Insert into Odelenie  Values ( 4 , 99  Vychod  Marek 
+ 36;06-Oct-20 2:36:26 PM;0;admin;admin;Insert into Odelenie  Values ( 4 , 99  Vychod  Marek 
+ 37;06-Oct-20 3:05:23 PM;0;admin;admin;Delete From Zamestnanec Where Zamestnanec_id = 10
+ 38;06-Oct-20 3:05:32 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Bc zamestnanec_meno = Karol zamestnanec_priezvisko = Crawford zamestnanec_vek = 12 zamestnanec_telefon = 644879510 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 39;06-Oct-20 3:06:04 PM;0;admin;admin;Insert into Zamestnanec  Values ( 26 , Ing  Juraj  Smiesko  100  None  None  None 
+ 40;06-Oct-20 5:01:39 PM;0;admin;admin;Insert into Project  Values ( 6 , 06-Oct-20 5:01:33 PM  1  1 
+ 41;06-Oct-20 5:02:10 PM;0;admin;admin;Insert into Zamestnanec  Values ( 26 , Ing  Juraj  Mak  66  453877696  None  None 
+ 42;06-Oct-20 5:02:23 PM;0;admin;admin;Insert into Zamestnanec  Values ( 27 ,   Jozef  Mak  66  453877696  None  None 
+ 43;06-Oct-20 5:02:38 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Bc zamestnanec_meno = Jozef zamestnanec_priezvisko = Mak zamestnanec_vek = 66 zamestnanec_telefon = 453877696 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 44;06-Oct-20 5:03:44 PM;0;admin;admin;Insert into Project  Values ( 6 , 06-Oct-20 5:03:38 PM  1  1 
+ 45;06-Oct-20 5:35:38 PM;0;admin;admin;Insert into Zaradenie Values ( 06-Oct-20 5:35:34 PM  1  1 
+ 46;06-Oct-20 5:37:32 PM;0;admin;admin;Insert into Zaradenie Values ( 06-Oct-20 5:37:07 PM  1  1 
+ 47;06-Oct-20 5:46:07 PM;0;admin;admin;Insert into Zaradenie Values ( 06-Oct-20 5:45:59 PM  2  1 
+ 48;06-Oct-20 5:52:57 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Ing zamestnanec_meno = Marek zamestnanec_priezvisko = Tomci zamestnanec_vek = 33 zamestnanec_telefon = 986391517 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 49;06-Oct-20 5:53:06 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = None zamestnanec_meno = None zamestnanec_priezvisko = None zamestnanec_vek = 25 zamestnanec_telefon = None zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 50;06-Oct-20 5:55:14 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Ing zamestnanec_meno = Marek zamestnanec_priezvisko = Tomci zamestnanec_vek = 25 zamestnanec_telefon = 986391517 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 51;06-Oct-20 5:56:38 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = None zamestnanec_meno = None zamestnanec_priezvisko = None zamestnanec_vek = 35 zamestnanec_telefon = None zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 52;06-Oct-20 5:59:44 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = None zamestnanec_meno = Eva zamestnanec_priezvisko = Morovska zamestnanec_vek = 74 zamestnanec_telefon = 384594830 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 53;06-Oct-20 6:00:11 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Bc zamestnanec_meno = Eva zamestnanec_priezvisko = Morovska zamestnanec_vek = 74 zamestnanec_telefon = 384594830 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 54;06-Oct-20 6:00:18 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = None zamestnanec_meno = Eva zamestnanec_priezvisko = Morovska zamestnanec_vek = 74 zamestnanec_telefon = 384594830 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 55;06-Oct-20 6:00:35 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = None zamestnanec_meno = None zamestnanec_priezvisko = None zamestnanec_vek = 85 zamestnanec_telefon = None zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 56;06-Oct-20 6:03:10 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Juraj zamestnanec_meno = Balog zamestnanec_priezvisko = 78 zamestnanec_vek = 818644241 Where {nazov}_id = {indexy[i]}
+ 57;06-Oct-20 6:05:05 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Ing zamestnanec_meno = Juraj zamestnanec_priezvisko = Balog zamestnanec_vek = 88 zamestnanec_telefon = 818644241 zamestnanec_email = None zamestnanec_zaradenie = None Where {nazov}_id = {indexy[i]}
+ 58;06-Oct-20 6:05:39 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Ing zamestnanec_meno = Juraj zamestnanec_priezvisko = Balog zamestnanec_vek = 88 zamestnanec_telefon = 818644241 zamestnanec_email = None Where {nazov}_id = {indexy[i]}
+ 59;06-Oct-20 6:06:07 PM;0;admin;admin;Insert into Zamestnanec  Values ( 28 , Bc  Peter  Popluhar  36  741852963  None  None 
+ 60;06-Oct-20 6:13:40 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Bc zamestnanec_meno = Karol zamestnanec_priezvisko = Ford zamestnanec_vek = 12 zamestnanec_telefon = 644879510 Where {nazov}_id = {indexy[i]}
+ 61;06-Oct-20 6:30:53 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Ing zamestnanec_meno = Viktor zamestnanec_priezvisko = Wong zamestnanec_vek = 28 zamestnanec_telefon = 131982650 zamestnanec_email = None zamestnanec_zaradenie = None Where Zamestnanec_id = 13
+ 62;06-Oct-20 6:31:06 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = None zamestnanec_meno = None zamestnanec_priezvisko = None zamestnanec_vek = 56 zamestnanec_telefon = None zamestnanec_email = None zamestnanec_zaradenie = None Where Zamestnanec_id = 16
+ 63;06-Oct-20 6:31:08 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = None zamestnanec_meno = None zamestnanec_priezvisko = None zamestnanec_vek = 56 zamestnanec_telefon = None zamestnanec_email = None zamestnanec_zaradenie = None Where Zamestnanec_id = 16Where Zamestnanec_id = 15
+ 64;06-Oct-20 6:36:03 PM;0;admin;admin;Update Zamestnanec set zamestnanec_vek = 66 Where Zamestnanec_id = 15
+ 65;06-Oct-20 6:36:03 PM;0;admin;admin;Update Zamestnanec set zamestnanec_vek = 66 Where Zamestnanec_id = 15Where Zamestnanec_id = 13
+ 66;06-Oct-20 6:36:03 PM;0;admin;admin;Update Zamestnanec set zamestnanec_vek = 66 Where Zamestnanec_id = 15Where Zamestnanec_id = 13Where Zamestnanec_id = 9
+ 67;06-Oct-20 7:03:59 PM;0;admin;admin;Delete From Zamestnanec Where Zamestnanec_id = 25
+ 68;06-Oct-20 7:04:08 PM;0;admin;admin;Insert into Zamestnanec  Values ( 29 , None  None  None  None  None  None  None 
+ 69;06-Oct-20 7:04:38 PM;0;admin;admin;Insert into Zamestnanec  Values ( 29 , Bc  Martin  Kocis  99  852147963  lalala@la.sk  None 
+ 70;06-Oct-20 7:05:07 PM;0;admin;admin;Update Zamestnanec set zamestnanec_titul = Bc zamestnanec_meno = Martin zamestnanec_priezvisko = Prudas zamestnanec_vek = 99 zamestnanec_telefon = 852147963 zamestnanec_email = lalala@la.sk Where Zamestnanec_id = 28
+ 71;06-Oct-20 7:05:17 PM;0;admin;admin;Update Zamestnanec set zamestnanec_vek = 24 Where Zamestnanec_id = 27
+ 72;06-Oct-20 7:05:17 PM;0;admin;admin;Update Zamestnanec set zamestnanec_vek = 24 Where Zamestnanec_id = 27Where Zamestnanec_id = 28
+ 73;06-Oct-20 7:06:43 PM;0;admin;admin;Insert into Odelenie  Values ( 4 , 9999  None  None 
+ 74;06-Oct-20 7:07:52 PM;0;admin;admin;Update Odelenie set project_id = 3 odelenie_nazov = Zapad odelenie_veduci = Marek Where Odelenie_id = 2
+ 75;06-Oct-20 7:08:02 PM;0;admin;admin;Update Odelenie set odelenie_veduci = Juraj Where Odelenie_id = 2
+ 76;06-Oct-20 7:08:02 PM;0;admin;admin;Update Odelenie set odelenie_veduci = Juraj Where Odelenie_id = 2Where Odelenie_id = 1
+ 77;06-Oct-20 7:08:28 PM;0;admin;admin;Update Odelenie set project_id = 1 odelenie_nazov = Sever odelenie_veduci = Juraj Where Odelenie_id = 1
+ 78;06-Oct-20 7:09:37 PM;0;admin;admin;Insert into Firma  Values ( 4 , vymaz  juju 
+ 79;06-Oct-20 7:09:59 PM;0;admin;admin;Insert into Divizia  Values ( 5 , 3  juja  pan juja 
+ 80;06-Oct-20 7:10:26 PM;0;admin;admin;Insert into Project  Values ( 6 , 4  putrob  qweryf 
+ 81;06-Oct-20 7:10:47 PM;0;admin;admin;Insert into Odelenie  Values ( 4 , 5  niesom   tu 
+ 82;06-Oct-20 7:10:55 PM;0;admin;admin;Delete From Firma Where Firma_id = 3
+ 83;06-Oct-20 7:11:20 PM;0;admin;admin;Update Divizia set firma_id = 1 divizia_nazov = Internet divizia_veduci = Kuli Where Divizia_id = 1
+ 84;06-Oct-20 7:11:55 PM;0;admin;admin;Insert into Zaradenie Values ( 06-Oct-20 7:11:45 PM  6  2 
+ 85;06-Oct-20 7:12:08 PM;0;admin;admin;Insert into Zaradenie Values ( 06-Oct-20 7:12:03 PM  16  2 
