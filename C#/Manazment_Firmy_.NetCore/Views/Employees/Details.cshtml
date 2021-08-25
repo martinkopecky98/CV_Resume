@@ -1,0 +1,23 @@
+﻿
+@model Employee
+
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title"> Details</h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">X</button>
+        </div>
+        <div class="modal-body">
+            <ul class="list-group">
+                <li class="list-group-item">@Html.DisplayNameFor(model => model.Name) : @Model.Name</li>
+                <li class="list-group-item">@Html.DisplayNameFor(model => model.Surname) : @Model.Surname</li>
+                <li class="list-group-item">@Html.DisplayNameFor(model => model.BirthDate) : @Model.BirthDate</li>
+                <li class="list-group-item">@Html.DisplayNameFor(model => model.IPaddress) : @Model.IPaddress</li>
+                <li class="list-group-item">@Html.DisplayNameFor(model => model.IPcountryCode) : @Model.IPcountryCode</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>

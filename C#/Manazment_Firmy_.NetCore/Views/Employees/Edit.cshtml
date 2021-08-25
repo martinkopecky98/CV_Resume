@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@model Employee
+
+<form asp-action="Edit" method="post">
+    <div class=" border p-3">
+        <h2>Edit Employee</h2>
+
+    </div>
+    <div class="row">
+        <div class="col-12 m-5">
+            <div class="form-group row ">
+                <div class="col-4"> <label asp-for="Name">Name</label></div>
+                <div class="col-4"> <input asp-for="Name" class="form-control" /></div>
+            </div>
+            <div class="form-group row ">
+                <div class="col-4"> <label asp-for="Surname">Surname</label></div>
+                <div class="col-4"> <input asp-for="Surname" class="form-control" /></div>
+            </div>
+            <div class="form-group row ">
+                <div class="col-4"> <label asp-for="BirthDate">Birth Of Date</label></div>
+                <div class="col-4"> <input asp-for="BirthDate" class="form-control" /></div>
+            </div>
+            <div class="form-group row ">
+                <div class="col-4"> <label asp-for="PositionID">Position</label></div>
+                <div class="col-4">
+                    @{
+                        List<string> positons = new List<string>();
+                        List<int> positonsInt = new List<int>();
+
+                        foreach (Position item in ViewBag.PositionNameList)
+                        {
+                            if (item.PositionId != 1)
+                            {
+                                positons.Add(item.PositionName);
+                                positonsInt.Add(item.PositionId);
+                            }
+                        }
+                    }
+                    @Html.DropDownList("PositionID", new SelectList(positons), "Please Select Position")
+                    <span asp-validation-for="PositionID" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row m-4">
+                <div class="col-8 offset-2 row">
+                    <div class="col ">
+                        <input type="submit" class="btn alert-primary w-75" value="edit" />
+                    </div>
+                    <div class="col ">
+                        <a class="btn alert-secondary w-75" asp-area="" asp-controller="Employees" asp-action="Index">Back</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</form>
